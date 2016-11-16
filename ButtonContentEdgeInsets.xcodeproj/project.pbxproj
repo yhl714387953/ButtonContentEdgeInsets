@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC25233F1DDC363300389356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25233E1DDC363300389356 /* main.m */; };
+		EC2523421DDC363300389356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2523411DDC363300389356 /* AppDelegate.m */; };
+		EC2523451DDC363300389356 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2523441DDC363300389356 /* ViewController.m */; };
+		EC2523481DDC363300389356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2523461DDC363300389356 /* Main.storyboard */; };
+		EC25234A1DDC363300389356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2523491DDC363300389356 /* Assets.xcassets */; };
+		EC25234D1DDC363300389356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC25234B1DDC363300389356 /* LaunchScreen.storyboard */; };
+		EC2523581DDC363300389356 /* ButtonContentEdgeInsetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2523571DDC363300389356 /* ButtonContentEdgeInsetsTests.m */; };
+		EC2523631DDC363300389356 /* ButtonContentEdgeInsetsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2523621DDC363300389356 /* ButtonContentEdgeInsetsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2523541DDC363300389356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2523321DDC363300389356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2523391DDC363300389356;
+			remoteInfo = ButtonContentEdgeInsets;
+		};
+		EC25235F1DDC363300389356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2523321DDC363300389356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2523391DDC363300389356;
+			remoteInfo = ButtonContentEdgeInsets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC25233A1DDC363300389356 /* ButtonContentEdgeInsets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonContentEdgeInsets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC25233E1DDC363300389356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2523401DDC363300389356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC2523411DDC363300389356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2523431DDC363300389356 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC2523441DDC363300389356 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC2523471DDC363300389356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2523491DDC363300389356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC25234C1DDC363300389356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC25234E1DDC363300389356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2523531DDC363300389356 /* ButtonContentEdgeInsetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonContentEdgeInsetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2523571DDC363300389356 /* ButtonContentEdgeInsetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonContentEdgeInsetsTests.m; sourceTree = "<group>"; };
+		EC2523591DDC363300389356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC25235E1DDC363300389356 /* ButtonContentEdgeInsetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonContentEdgeInsetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2523621DDC363300389356 /* ButtonContentEdgeInsetsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonContentEdgeInsetsUITests.m; sourceTree = "<group>"; };
+		EC2523641DDC363300389356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2523371DDC363300389356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2523501DDC363300389356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25235B1DDC363300389356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2523311DDC363300389356 = {
+			isa = PBXGroup;
+			children = (
+				EC25233C1DDC363300389356 /* ButtonContentEdgeInsets */,
+				EC2523561DDC363300389356 /* ButtonContentEdgeInsetsTests */,
+				EC2523611DDC363300389356 /* ButtonContentEdgeInsetsUITests */,
+				EC25233B1DDC363300389356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC25233B1DDC363300389356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC25233A1DDC363300389356 /* ButtonContentEdgeInsets.app */,
+				EC2523531DDC363300389356 /* ButtonContentEdgeInsetsTests.xctest */,
+				EC25235E1DDC363300389356 /* ButtonContentEdgeInsetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC25233C1DDC363300389356 /* ButtonContentEdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				EC2523401DDC363300389356 /* AppDelegate.h */,
+				EC2523411DDC363300389356 /* AppDelegate.m */,
+				EC2523431DDC363300389356 /* ViewController.h */,
+				EC2523441DDC363300389356 /* ViewController.m */,
+				EC2523461DDC363300389356 /* Main.storyboard */,
+				EC2523491DDC363300389356 /* Assets.xcassets */,
+				EC25234B1DDC363300389356 /* LaunchScreen.storyboard */,
+				EC25234E1DDC363300389356 /* Info.plist */,
+				EC25233D1DDC363300389356 /* Supporting Files */,
+			);
+			path = ButtonContentEdgeInsets;
+			sourceTree = "<group>";
+		};
+		EC25233D1DDC363300389356 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC25233E1DDC363300389356 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2523561DDC363300389356 /* ButtonContentEdgeInsetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2523571DDC363300389356 /* ButtonContentEdgeInsetsTests.m */,
+				EC2523591DDC363300389356 /* Info.plist */,
+			);
+			path = ButtonContentEdgeInsetsTests;
+			sourceTree = "<group>";
+		};
+		EC2523611DDC363300389356 /* ButtonContentEdgeInsetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2523621DDC363300389356 /* ButtonContentEdgeInsetsUITests.m */,
+				EC2523641DDC363300389356 /* Info.plist */,
+			);
+			path = ButtonContentEdgeInsetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2523391DDC363300389356 /* ButtonContentEdgeInsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2523671DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsets" */;
+			buildPhases = (
+				EC2523361DDC363300389356 /* Sources */,
+				EC2523371DDC363300389356 /* Frameworks */,
+				EC2523381DDC363300389356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonContentEdgeInsets;
+			productName = ButtonContentEdgeInsets;
+			productReference = EC25233A1DDC363300389356 /* ButtonContentEdgeInsets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2523521DDC363300389356 /* ButtonContentEdgeInsetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC25236A1DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsetsTests" */;
+			buildPhases = (
+				EC25234F1DDC363300389356 /* Sources */,
+				EC2523501DDC363300389356 /* Frameworks */,
+				EC2523511DDC363300389356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2523551DDC363300389356 /* PBXTargetDependency */,
+			);
+			name = ButtonContentEdgeInsetsTests;
+			productName = ButtonContentEdgeInsetsTests;
+			productReference = EC2523531DDC363300389356 /* ButtonContentEdgeInsetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC25235D1DDC363300389356 /* ButtonContentEdgeInsetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC25236D1DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsetsUITests" */;
+			buildPhases = (
+				EC25235A1DDC363300389356 /* Sources */,
+				EC25235B1DDC363300389356 /* Frameworks */,
+				EC25235C1DDC363300389356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2523601DDC363300389356 /* PBXTargetDependency */,
+			);
+			name = ButtonContentEdgeInsetsUITests;
+			productName = ButtonContentEdgeInsetsUITests;
+			productReference = EC25235E1DDC363300389356 /* ButtonContentEdgeInsetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2523321DDC363300389356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Pactera;
+				TargetAttributes = {
+					EC2523391DDC363300389356 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC2523521DDC363300389356 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2523391DDC363300389356;
+					};
+					EC25235D1DDC363300389356 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2523391DDC363300389356;
+					};
+				};
+			};
+			buildConfigurationList = EC2523351DDC363300389356 /* Build configuration list for PBXProject "ButtonContentEdgeInsets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2523311DDC363300389356;
+			productRefGroup = EC25233B1DDC363300389356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2523391DDC363300389356 /* ButtonContentEdgeInsets */,
+				EC2523521DDC363300389356 /* ButtonContentEdgeInsetsTests */,
+				EC25235D1DDC363300389356 /* ButtonContentEdgeInsetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2523381DDC363300389356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC25234D1DDC363300389356 /* LaunchScreen.storyboard in Resources */,
+				EC25234A1DDC363300389356 /* Assets.xcassets in Resources */,
+				EC2523481DDC363300389356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2523511DDC363300389356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25235C1DDC363300389356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2523361DDC363300389356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2523451DDC363300389356 /* ViewController.m in Sources */,
+				EC2523421DDC363300389356 /* AppDelegate.m in Sources */,
+				EC25233F1DDC363300389356 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25234F1DDC363300389356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2523581DDC363300389356 /* ButtonContentEdgeInsetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25235A1DDC363300389356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2523631DDC363300389356 /* ButtonContentEdgeInsetsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2523551DDC363300389356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2523391DDC363300389356 /* ButtonContentEdgeInsets */;
+			targetProxy = EC2523541DDC363300389356 /* PBXContainerItemProxy */;
+		};
+		EC2523601DDC363300389356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2523391DDC363300389356 /* ButtonContentEdgeInsets */;
+			targetProxy = EC25235F1DDC363300389356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2523461DDC363300389356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2523471DDC363300389356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC25234B1DDC363300389356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC25234C1DDC363300389356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2523651DDC363300389356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC2523661DDC363300389356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2523681DDC363300389356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonContentEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.zuiye.ButtonContentEdgeInsets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2523691DDC363300389356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonContentEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.zuiye.ButtonContentEdgeInsets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC25236B1DDC363300389356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonContentEdgeInsetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.zuiye.ButtonContentEdgeInsetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonContentEdgeInsets.app/ButtonContentEdgeInsets";
+			};
+			name = Debug;
+		};
+		EC25236C1DDC363300389356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonContentEdgeInsetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.zuiye.ButtonContentEdgeInsetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonContentEdgeInsets.app/ButtonContentEdgeInsets";
+			};
+			name = Release;
+		};
+		EC25236E1DDC363300389356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonContentEdgeInsetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.zuiye.ButtonContentEdgeInsetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonContentEdgeInsets;
+			};
+			name = Debug;
+		};
+		EC25236F1DDC363300389356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonContentEdgeInsetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.zuiye.ButtonContentEdgeInsetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonContentEdgeInsets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2523351DDC363300389356 /* Build configuration list for PBXProject "ButtonContentEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2523651DDC363300389356 /* Debug */,
+				EC2523661DDC363300389356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2523671DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2523681DDC363300389356 /* Debug */,
+				EC2523691DDC363300389356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC25236A1DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC25236B1DDC363300389356 /* Debug */,
+				EC25236C1DDC363300389356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC25236D1DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC25236E1DDC363300389356 /* Debug */,
+				EC25236F1DDC363300389356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2523321DDC363300389356 /* Project object */;
+}
