@@ -15,6 +15,9 @@
 		EC25234D1DDC363300389356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC25234B1DDC363300389356 /* LaunchScreen.storyboard */; };
 		EC2523581DDC363300389356 /* ButtonContentEdgeInsetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2523571DDC363300389356 /* ButtonContentEdgeInsetsTests.m */; };
 		EC2523631DDC363300389356 /* ButtonContentEdgeInsetsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2523621DDC363300389356 /* ButtonContentEdgeInsetsUITests.m */; };
+		EC2523711DDC368A00389356 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2523701DDC368900389356 /* Media.xcassets */; };
+		EC25237C1DDC61D600389356 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25237B1DDC61D600389356 /* TestViewController.m */; };
+		EC6727321DDD492400539F27 /* UIButton+PlaceContent.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6727311DDD492400539F27 /* UIButton+PlaceContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		EC25235E1DDC363300389356 /* ButtonContentEdgeInsetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonContentEdgeInsetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2523621DDC363300389356 /* ButtonContentEdgeInsetsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonContentEdgeInsetsUITests.m; sourceTree = "<group>"; };
 		EC2523641DDC363300389356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2523701DDC368900389356 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		EC25237A1DDC61D600389356 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EC25237B1DDC61D600389356 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		EC6727301DDD492400539F27 /* UIButton+PlaceContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PlaceContent.h"; sourceTree = "<group>"; };
+		EC6727311DDD492400539F27 /* UIButton+PlaceContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PlaceContent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +113,12 @@
 				EC2523411DDC363300389356 /* AppDelegate.m */,
 				EC2523431DDC363300389356 /* ViewController.h */,
 				EC2523441DDC363300389356 /* ViewController.m */,
+				EC25237A1DDC61D600389356 /* TestViewController.h */,
+				EC25237B1DDC61D600389356 /* TestViewController.m */,
+				EC67272F1DDD492400539F27 /* ButtonContent */,
 				EC2523461DDC363300389356 /* Main.storyboard */,
 				EC2523491DDC363300389356 /* Assets.xcassets */,
+				EC2523701DDC368900389356 /* Media.xcassets */,
 				EC25234B1DDC363300389356 /* LaunchScreen.storyboard */,
 				EC25234E1DDC363300389356 /* Info.plist */,
 				EC25233D1DDC363300389356 /* Supporting Files */,
@@ -138,6 +150,15 @@
 				EC2523641DDC363300389356 /* Info.plist */,
 			);
 			path = ButtonContentEdgeInsetsUITests;
+			sourceTree = "<group>";
+		};
+		EC67272F1DDD492400539F27 /* ButtonContent */ = {
+			isa = PBXGroup;
+			children = (
+				EC6727301DDD492400539F27 /* UIButton+PlaceContent.h */,
+				EC6727311DDD492400539F27 /* UIButton+PlaceContent.m */,
+			);
+			path = ButtonContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +269,7 @@
 			files = (
 				EC25234D1DDC363300389356 /* LaunchScreen.storyboard in Resources */,
 				EC25234A1DDC363300389356 /* Assets.xcassets in Resources */,
+				EC2523711DDC368A00389356 /* Media.xcassets in Resources */,
 				EC2523481DDC363300389356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC25237C1DDC61D600389356 /* TestViewController.m in Sources */,
 				EC2523451DDC363300389356 /* ViewController.m in Sources */,
+				EC6727321DDD492400539F27 /* UIButton+PlaceContent.m in Sources */,
 				EC2523421DDC363300389356 /* AppDelegate.m in Sources */,
 				EC25233F1DDC363300389356 /* main.m in Sources */,
 			);
@@ -505,6 +529,7 @@
 				EC2523691DDC363300389356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC25236A1DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsetsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				EC25236C1DDC363300389356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC25236D1DDC363300389356 /* Build configuration list for PBXNativeTarget "ButtonContentEdgeInsetsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				EC25236F1DDC363300389356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
