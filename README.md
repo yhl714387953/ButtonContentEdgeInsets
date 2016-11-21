@@ -221,7 +221,7 @@ typedef NS_ENUM(NSInteger, ZYButtonImagePosition) {
 ```
 
 ###看下最终执行结果
-![效果去](image/12.png)
+![效果图](image/12.png)
 
 ****
 感谢您阅读完毕，如有疑问，欢迎添加QQ:<span style = "color: orange; font-Size:24px;">714387953</span>(蜗牛上高速)。
