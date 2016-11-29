@@ -2,7 +2,7 @@
 
 <h1>详解<span style = "color: red">UIButton</span>的<span style = "font-Size:24px; color: red">imageEdgeInsets</span>和<span  style = "font-Size:24px; color: red">titleEdgeInsets</span>属性</h1> 
 ***********
-反复试验了两天，终于理解了*imageEdgeInsets*和*titleEdgeInsets*，首先我们看一下原理，针对content 水平、垂直居中的情况去分析，代码设置如下：
+图片和文字组合的按钮比较常见，起初不会设置按钮这个两个属性，为了赶进度，直接再按钮上加了个图片和label，显然是不太合理的。工作之余好好的研究了下，终于理解了*imageEdgeInsets*和*titleEdgeInsets*。首先我们看一下原理，针对content 水平、垂直居中的情况去分析，代码设置如下：
 
 ```objc
 button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
