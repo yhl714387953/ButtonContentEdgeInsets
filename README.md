@@ -45,13 +45,13 @@ xib中按钮的设置如图：![xib中按钮的设置](image/1.png)
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
   
-    [self.button setImageEdgeInsets:UIEdgeInsetsMake(-10, 20, 10, 20)];
+    [self.button setImageEdgeInsets:UIEdgeInsetsMake(-10, 20, 10, -20)];
 }
 
 ```
 ![效果图](image/7.png)
 
-确定是相对于原来的位置移动的，我们看一下**setImageEdgeInsets**这个方法的描述
+确实是相对于原来的位置移动的，我们看一下**setImageEdgeInsets**这个方法的描述
 ![效果图](image/8.png)
 
 当然我的经验是按钮大小确定以后去设置，不会有问题。

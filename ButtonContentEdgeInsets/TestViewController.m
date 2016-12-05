@@ -34,7 +34,7 @@
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
     
-    [self.button setImageEdgeInsets:UIEdgeInsetsMake(-10, 20, 10, 20)];
+    [self.button setImageEdgeInsets:UIEdgeInsetsMake(-10, 20, 10, -20)];
     
     CGFloat space = 10.0f;
     [self.imageLeftButton placeImageTitlePosition:(ZYButtonImagePositionLeft) space:space];
