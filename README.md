@@ -2,7 +2,7 @@
 
 <h1>详解<span style = "color: red">UIButton</span>的<span style = "font-Size:24px; color: red">imageEdgeInsets</span>和<span  style = "font-Size:24px; color: red">titleEdgeInsets</span>属性</h1> 
 ***********
-图片和文字组合的按钮比较常见，起初不会设置按钮这个两个属性，为了赶进度，直接再按钮上加了个图片和label，显然是不太合理的。工作之余好好的研究了下，终于理解了*imageEdgeInsets*和*titleEdgeInsets*。首先我们看一下原理，针对content 水平、垂直居中的情况去分析，代码设置如下：
+图片和文字组合的按钮比较常见，起初不会设置按钮这个两个属性，为了赶进度，直接再按钮上加了个图片和label，显然是不太合理的。工作之余好好的研究了下，终于理解了 **imageEdgeInsets** 和**titleEdgeInsets**。首先我们看一下原理，针对content 水平、垂直居中的情况去分析，代码设置如下：
 
 ```objc
 button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
@@ -57,25 +57,25 @@ xib中按钮的设置如图：![xib中按钮的设置](image/1.png)
 当然我的经验是按钮大小确定以后去设置，不会有问题。
 
 
-####以上是原理，我们在实际开发的时候使用一下，我们先看一个简单图左文右的
+#### 以上是原理，我们在实际开发的时候使用一下，我们先看一个简单图左文右的
 
 ![效果图](image/9.png)
 
 在image和label中插入一个space，红色虚线为button 的 content(虚线部分，image + label)，水平垂直都是居中模式，若中间插入一个space，还想保持居中，需要imgae左移半个space，label右移半个space，则content还是居中的，根据上面的分析，image新的位置相对之前的位置left向外扩张(space / 2.0)px，right向内收缩(space / 2.0)px，上下没有动，则
-####image
+#### image
 > * left: -10px;
 > * right: 10px;
 > * top: 0px;
 > * bottom: 0px;
 
-####同理label
+#### 同理label
 > * left: 10px;
 > * right: -10px;
 > * top: 0px;
 > * bottom: 0px;
 
  
-####再看一个文上图下排列的
+#### 再看一个文上图下排列的
 ![效果图](image/10.png)
 
 分析一下，如果还要保持content(虚线部分，image + label)居中，对于上下来说，image是向下移动半个label的高度 + 半个space的高度，label向上移动半个image高度 + 半个space的高度；对于左右来说，如下图，image右移动了半个content宽度减去半个image宽度 即 <span style = "font-Size:18px; color: blue">(imageWidth + labelWidth) / 2.0 - imageWidth / 2.0</span>如下图
@@ -102,7 +102,7 @@ xib中按钮的设置如图：![xib中按钮的设置](image/1.png)
 
 ```
 
-####那么我们封装一个类，方便使用，这里我扩展了一个button (PlaceContent)
+#### 那么我们封装一个类，方便使用，这里我扩展了一个button (PlaceContent)
 
 ```objc
 #import <UIKit/UIKit.h>
@@ -220,7 +220,7 @@ typedef NS_ENUM(NSInteger, ZYButtonImagePosition) {
 }
 ```
 
-###看下最终执行结果
+### 看下最终执行结果
 ![效果图](image/12.png)
 
 ****
