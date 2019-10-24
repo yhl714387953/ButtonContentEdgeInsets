@@ -13,8 +13,9 @@
 -(void)placeImageTitlePosition:(ZYButtonImagePosition)position space:(CGFloat)space{
 
     //    获取按钮图片的宽高
-    CGFloat imageWidth = self.imageView.frame.size.width;
-    CGFloat imageHeight = self.imageView.frame.size.height;
+    CGSize imgSize = self.imageView.intrinsicContentSize;
+    CGFloat imageWidth = imgSize.width;
+    CGFloat imageHeight = imgSize.height;
     
     //    获取文字的宽高
     CGSize labelSize = self.titleLabel.intrinsicContentSize;

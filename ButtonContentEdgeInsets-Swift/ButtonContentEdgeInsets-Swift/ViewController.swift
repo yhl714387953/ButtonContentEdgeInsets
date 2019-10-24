@@ -23,7 +23,7 @@ extension UIButton{
         var imageWidth : CGFloat = 0.0
         var imageHeight : CGFloat = 0.0
         if let imgView = self.imageView {
-            //    获var取按钮图片的宽高
+            //    获取按钮图片的宽高
             let imgSize = imgView.intrinsicContentSize
             imageWidth = imgSize.width;
             imageHeight = imgSize.height;
