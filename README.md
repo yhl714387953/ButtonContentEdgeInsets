@@ -82,7 +82,7 @@ xib中按钮的设置如图：![xib中按钮的设置](image/1.png)
 
 ![效果图](image/11.png)
 
-这样我们拿到button中的image和label的宽高即可，这里注意下label 宽高的获取方式
+这样我们拿到button中的image和label的宽高即可，这里注意下 `imageView`、`label` 宽高的获取方式
 
 ```ojbc
 
